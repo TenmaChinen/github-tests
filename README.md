@@ -3,3 +3,35 @@
 ## Link To Sub README.md
 
 [Sub README Link](https://github.com/TenmaChinen/github-tests/blob/main/folder/README.md)
+
+
+
+## HTML Tables Limit
+
+<table>
+<tr>
+<th>Header 1</th>
+<th>Header 2</th>
+</tr>
+
+<tr>
+<td>Cell 1</td>
+<td>
+
+<table>
+<tr>
+<th>Sub Header 1</th>
+<th>Sub Header 2</th>
+</tr>
+
+<tr>
+<td>Sub Cell 1</td>
+<td>Sub Cell 2</td>
+</tr>
+
+</table>
+
+</td>
+</tr>
+
+</table>
