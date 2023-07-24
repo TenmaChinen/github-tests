@@ -34,4 +34,24 @@
 </td>
 </tr>
 
+<tr>
+<td colspan=2 align='center'>Cell Col Span</td>
+</tr>
+
+<tr>
+<td colspan=2>
+
+```py
+# Python Code Inside Table Test
+def greetings(name='James'):
+    return f'Hello {name} !'
+
+
+greet = greetings('Paul')
+print(greet)
+```
+
+</td>
+</tr>
+
 </table>
