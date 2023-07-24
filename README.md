@@ -11,12 +11,14 @@
 <table>
 <tr>
 <th>Header 1</th>
-<th>Header 2</th>
+<th align='right'>Header 2</th>
 </tr>
 
 <tr>
-<td>Cell 1</td>
-<td>
+<td align='center'>Cell 1 (center)</td>
+<td align='right'>
+
+<div>(Align Right)</div>
 
 <table>
 <tr>
@@ -26,7 +28,19 @@
 
 <tr>
 <td>Sub Cell 1</td>
+<td>
+<table>
+<tr>
+<th>Sub Header 1</th>
+<th>Sub Header 2</th>
+</tr>
+
+<tr>
+<td>Sub Cell 1</td>
 <td>Sub Cell 2</td>
+</tr>
+</table>
+</td>
 </tr>
 
 </table>
@@ -45,7 +59,6 @@
 # Python Code Inside Table Test
 def greetings(name='James'):
     return f'Hello {name} !'
-
 
 greet = greetings('Paul')
 print(greet)
